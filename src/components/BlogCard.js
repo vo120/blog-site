@@ -10,6 +10,7 @@ export default function BlogPostCard({
   datePublished,
   slug,
 }) {
+  console.log("in date", datePublished);
   return (
     <div className={styles.card}>
       <Link href={`/posts/${slug}`}>
@@ -25,7 +26,7 @@ export default function BlogPostCard({
             <h3>{author.name}</h3>
           </div>
           <div className={styles.date}>
-            <h3>{moment(datePublished).format("MMMM d, YYYY")}</h3>
+            <h3>{moment(datePublished).format("MMMM DD, YYYY")}</h3>
           </div>
         </div>
       </div>
