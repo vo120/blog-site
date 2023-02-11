@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link href="../../public/Brand.woff" rel="stylesheet" type="text/css" />
+        <link href="../../public/Brand.woff" rel="stylesheet" />
       </Head>
       <body>
         <Main />
