@@ -8,6 +8,11 @@ const nextConfig = {
   images: {
     domains: ["media.graphassets.com", "localhost"],
   },
+  publicRuntimeConfig: {
+    fontFamily: {
+      sans: ["Brand", "sans-serif"],
+    },
+  },
 };
 
 module.exports = nextConfig;
