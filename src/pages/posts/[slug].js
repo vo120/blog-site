@@ -76,7 +76,7 @@ function BlogPost({ post }) {
         <div className={styles.authtext}>
           <h6>By {post.author.name}</h6>
           <h6 className={styles.date}>
-            {moment(post.datePublished).format("MMMM d, YYYY")}
+            {moment(post.datePublished).format("MMMM DD, YYYY")}
           </h6>
         </div>
       </div>

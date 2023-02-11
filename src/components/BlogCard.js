@@ -10,7 +10,6 @@ export default function BlogPostCard({
   datePublished,
   slug,
 }) {
-  console.log("in date", datePublished);
   return (
     <div className={styles.card}>
       <Link href={`/posts/${slug}`}>
