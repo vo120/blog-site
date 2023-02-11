@@ -2,9 +2,6 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "@/components/BlogCard";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const graphCMS = new GraphQLClient(process.env.GRAPHCMS_ENDPOINT);
 
