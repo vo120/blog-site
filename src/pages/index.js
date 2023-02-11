@@ -35,10 +35,10 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
+      // revalidate website for new content every 10 seconds (since its static)
+      revalidate: 10,
+      fallback: false,
     },
-    // revalidate website for new content every 10 seconds (since its static)
-    revalidate: 10,
-    fallback: false,
   };
 }
 

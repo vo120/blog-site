@@ -8,10 +8,6 @@ const nextConfig = {
   images: {
     domains: ["media.graphassets.com", "localhost"],
   },
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
 };
 
 module.exports = nextConfig;
